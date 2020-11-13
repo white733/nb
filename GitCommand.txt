@@ -1,0 +1,25 @@
+1、在Github上建立仓库：https://github.com/squllwu/test12
+2、在本地创建GitDir目录
+3、右击Git Bash here。
+4、git clone https://github.com/squllwu/test12
+5、在test12建立test.txt文件，输入文件内容等操作．
+6、git add test.txt	添加到缓冲区
+7、git commit -m test.txt	添加到本地仓库
+8、git push	推到Github仓库。注意：只有clone下来的项目可以直接push。否则需要写清楚push到哪个仓库，哪个分支。例如：
+git push https://github.com/squllwu/test master
+
+
+
+1、建立目标文件夹test123
+2、右击git bash。
+3、git init 初始化本地仓库
+4、git pull https://github.com/squllwu/test 
+5、本地目录中新建文件test.txt，写入内容等操作。
+6、git add test.txt	添加到缓冲区
+7、git commit -m test.txt	添加到本地仓库
+8、git push	推到Github仓库。例如：
+git push https://github.com/squllwu/test master
+9、在Github中切换分支查看内容，并合并分支。了解操作。
+
+git ls-files 查看暂存区文件信息
+
